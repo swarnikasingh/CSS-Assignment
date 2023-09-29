@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My Profile</title>
 </head>
 <body>
-    <header></header>
-    
+    <header>
+       
+        
+        <nav class = "navbar">
+            <ul class = "navigation">
+                <li class="item"><a href = #profile>About</a></li>
+                <li class="item"><a href = #profile>Video</a></li>
+                <li class="item"><a href = #Details>Skills</a></li>
+                <li class="item"><a href = #skills>Personal Details</a></li>
+            </ul>
+        </nav>
+      </header>
 
-        <h1><center>Swarnika Singh</center></h1>
-        <center><img src="profile.jpeg" width="200" height="142" alt="Swarnika's Profile Picture"></center>
-    </header>
+        <h1>Swarnika Singh</h1>
+        <img src="profile.jpeg" width="200" height="142" alt="Swarnika's Profile Picture">
+    
+   
 
     <main>
-        <section>
-            <h2><center>About Me</center></h2>
+        <section class = "profile">
+            <h2>About Me</h2>
             <p>
                 Hello!<strong> I'm Swarnika Singh </strong>, a passionate web developer with experience in <em>HTML, CSS, and JavaScript.</em>
                 I love creating user-friendly and visually appealing websites. Currently, I am exploring new
@@ -36,7 +48,7 @@
             </video>
         </section>
 
-        <section>
+        <section class = "Details" id = "Details">
             <h2>Personal Details</h2>
             <table>
                 <tr>
@@ -58,7 +70,7 @@
             </table>
         </section>
 
-        <section>
+        <section class = "skills" id = "skills">
             <h2>Skill Sets</h2>
             <ul>
                 <li>HTML</li>
